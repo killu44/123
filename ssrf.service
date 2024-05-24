@@ -1,0 +1,13 @@
+[Unit]
+Description=SSRF Token (Go Service by Rozetkin)
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/
+ExecStart=/root/ssrf_server
+Restart=always
+
+
+[Install]
+WantedBy=multi-user.target

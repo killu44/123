@@ -1,0 +1,4 @@
+conf:
+    sha256: <SHA256_HASH>
+    md5: <MD5_HASH>
+    binaryPath: <BINARY_PATH>
